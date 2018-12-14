@@ -8,6 +8,6 @@
 # Short-Description: starts the shadowsocksr daemon
 # Description:       starts shadowsocksr using start-stop-daemon
 ### END INIT INFO
-sh /root/shadowsocksr/logrun.sh
+sh /root/shadowsocksr/run.sh
   
 exit 0
