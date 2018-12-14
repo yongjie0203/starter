@@ -10,3 +10,4 @@ sudo wget https://raw.githubusercontent.com/yongjie0203/starter/master/monitor.s
 sudo chmod 755 monitor.sh
 sudo echo "1 * * * * root sh /root/monitor.sh" >> /etc/crontab
 sudo service cron restart
+cat /etc/crontab
