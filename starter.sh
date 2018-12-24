@@ -11,7 +11,7 @@ apt-get install ntp
 ntpdate cn.pool.ntp.org
 sudo wget https://raw.githubusercontent.com/yongjie0203/starter/master/monitor.sh
 sudo chmod 755 monitor.sh
-sudo echo "0 17 * * * root /sbin/reboot" >> /etc/crontab
+sudo echo "30 5 * * * root /sbin/reboot" >> /etc/crontab
 sudo echo "1 * * * *  root sh /root/monitor.sh" >> /etc/crontab
 sudo service cron restart
 cat /etc/crontab
